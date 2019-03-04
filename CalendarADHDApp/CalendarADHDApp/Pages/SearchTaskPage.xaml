@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalendarADHDApp.Pages.SearchTaskPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Margin="40,0,40,0">
+            <Picker Title="Välj användare" TextColor="#A5A7A8" x:Name="PickerUser" >
+                <Picker.Items>
+                    <x:String>mikael@gmail.com</x:String>
+
+                </Picker.Items>
+            </Picker>
+            <Button Text="Sök" BackgroundColor="LightCoral" x:Name="BtnSearch" Clicked="BtnSearch_OnClick"/>
+
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>
